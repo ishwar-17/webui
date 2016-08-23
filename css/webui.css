@@ -1,0 +1,241 @@
+.sidetab li a{
+	border-radius: 0px 36px 1px 1px;
+	color:#000;
+	background-color: #cccccc;
+	padding: 10px 35px 10px;
+	font-size:15px;
+	
+	text-shadow:0px 1px 0px #fff;
+}
+.sidetab a{
+	padding-left:12px;
+}
+.sidetab li.active>a{
+	background-color:#cccccc;
+	color:#000;
+}
+.sidetab li.active>a:hover{
+	background-color:#f2f2f2;
+	color:#000;
+}
+.slidetab li.active>a:focus{
+	background-color:#000;
+	color:#fff;
+	
+}
+.sidetab{
+	position: absolute;
+    right: 15px;
+    bottom: 0;
+	
+}
+.writeuscontent{
+	padding: 94px;
+    background-color: #f2f2f2;
+	border-right:1px solid #ddd;
+}
+.writeuscontent1{
+	background-color: #f2f2f2;
+	padding-bottom: 1%;
+}
+.writeuscontent h4{
+	font-size:18px;
+	font-family:inherit;
+	letter-spacing:1px;
+}
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+#formid{
+	padding:25px 0px;
+}
+.formtext{
+	border-radius:17px;
+}
+.iconcontenttext{
+	border: 1px solid #33adff;
+    border-radius: 100%;
+    color: #33adff;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.iconcontenttext1{
+	border: 1px solid #33adff;
+    border-radius: 100%;
+    color: #33adff;
+    padding: 12px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.downnavtab li:active>a{
+	background-color:#fff;
+	color:#33adff;
+}
+.downnavtab li a:focus{
+	background-color:#fff;
+	color:#33adff;
+	box-shadow: 1px 1px 1px 1px #ddd;
+}
+.messagealert{
+	padding:7px;
+	border-radius: 34px;
+}
+.formemailtext{
+	background-color: #d9d9d9;
+	color:#000;
+}
+.button12{
+	background-color: #0077b3;
+    border: none;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 7px 2px #0077b3;
+	text-shadow:0px 1px 1px #000;
+	outline:none;
+}
+.button12:hover{
+	background-color:#005580;
+}
+.button13{
+	background-color: #fff;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 1px 1px #ddd;
+    color: #999;
+	outline:none;
+	text-shadow:0px 1px 1px #ddd;
+}
+.button13:hover{
+	background-color:#f2f2f2;
+	color:#000;
+}
+.downcolums{
+	background-color: #f2f2f2;
+}
+.downcolums1{
+	border-left:1px solid #ddd;
+	padding: 15px;
+}	
+#closetabnav {
+	border-radius: 5px;
+    padding: 9px 13px 10px 11px;
+    background-color: #000;
+    color: #fff;
+    margin-left: -2px;
+}
+.someanimatiom1{
+	-webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+}
+.someanimatiom{
+	-webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.someanimatiom2{
+	-webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media (max-width:767px){
+	.sidetab{
+		position:relative;
+		
+	}
+	.sidetab li a{
+		padding: 10px 10px 9px 20px;
+	}
+	.sidetab li.active>a{
+	background-color:#f2f2f2;
+	color:#000;
+	}
+	.sidetab li.active>a:hover{
+	background-color:#f2f2f2;
+	color:#000;
+	}
+}
+.comingsoon{
+	width:100%;
+	height: 560px;
+}
+.comingimage{
+	padding-left:0px;
+	padding-right:0px;
+	border:1px solid #000;
+}
+.livechat{
+	color: green;
+    position: absolute;
+    text-align: center;
+    bottom: 59%;
+    font-style: italic;
+    font-family: Vijaya;
+    left: 28%;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 0px 3px 3px #fff;
+}
+.someanimatiom4{
+	-webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.someanimatiom4 {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
